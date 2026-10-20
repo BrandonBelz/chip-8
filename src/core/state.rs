@@ -16,7 +16,7 @@ impl Chip8State {
             display: [false; 2048],
             stack: [0; 64],
             registers: [0; 16],
-            program_counter: 512,
+            program_counter: 0,
             index: 0,
             delay_timer: 0,
             sound_timer: 0,
